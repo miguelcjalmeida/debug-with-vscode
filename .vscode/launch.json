@@ -64,6 +64,23 @@
             "url": "http://localhost:3001/typescript/dist/index.html",
             "webRoot": "${workspaceRoot}/typescript/dist/",
             "sourceMaps": true
+        },
+        {
+            //must enable php xdebug extension
+            "name": "PHP - Launch File",
+            "type": "php",
+            "request": "launch",
+            "localSourceRoot": "${workspaceRoot}/php",
+            "serverSourceRoot": "C:/dev/debug-with-vscode/php",
+            "program": "${workspaceRoot}/php/index.php",
+            "runtimeExecutable": "C:/xampp/php/php.exe"
+        },
+        {
+            //must enable php xdebug extension
+            "name": "PHP - Listen for XDebug",
+            "type": "php",
+            "request": "launch",
+            "port": 9000
         }
     ]
 }
