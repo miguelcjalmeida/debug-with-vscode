@@ -1,0 +1,22 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            //must enable php xdebug extension
+            "name": "PHP - Launch File",
+            "type": "php",
+            "request": "launch",
+            "localSourceRoot": "${workspaceRoot}/",
+            "serverSourceRoot": "C:/dev/debug-with-vscode/php",
+            "program": "${workspaceRoot}/index.php",
+            "runtimeExecutable": "C:/xampp/php/php.exe"
+        },
+        {
+            //must enable php xdebug extension
+            "name": "PHP - Listen for XDebug",
+            "type": "php",
+            "request": "launch",
+            "port": 9000
+        }
+    ]
+}
