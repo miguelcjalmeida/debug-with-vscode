@@ -17,7 +17,7 @@ gulp.task('serve', [], () => {
 gulp.task('build-javascript', ['build-javascript-html'], () => {
     return gulp.src(['./javascript/**/*.js', '!./javascript/dist'])
         .pipe(sourcemaps.init())
-        .pipe(uglify())
+        .pipe(uglify({mangle: true}))
         .pipe(sourcemaps.write('.', {sourceRoot: '../'}))
         .pipe(gulp.dest('./javascript/dist/'))
 })

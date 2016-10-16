@@ -63,7 +63,8 @@
             "port": 9222,
             "url": "http://localhost:3001/typescript/dist/index.html",
             "webRoot": "${workspaceRoot}/typescript/dist/",
-            "sourceMaps": true
+            "sourceMaps": true,
+            "preLaunchTask": "build-typescript"
         },
         {
             //must enable php xdebug extension

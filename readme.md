@@ -40,9 +40,9 @@ There are some common properties in your launch configuration that you might use
 * **request** (string) - Can only be "launch" or "attached". "launch" means vscode launch your application before debugging. "attach" means vscode attaches to a running application.
 * **preLaunchTask** (string) - Run a task of your _.vscode/task.json_ before debugging.
 
-### Examples
+### Debugging a Real Application
 
-Here it is some launching configurations for different applications:
+Check how to debug a real application by looking into one of the examples below:
  - [NodeJS application](./nodejs)
  - [Javascript for web application](./javascript)
  - [Typescript for web application](./typescript)
