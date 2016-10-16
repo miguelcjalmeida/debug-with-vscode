@@ -1,0 +1,25 @@
+{
+  "name": "javascript",
+  "version": "1.0.0",
+  "description": "debugging js files using sourcemaps and vscode",
+  "main": "gulpfile.js",
+  "scripts": {
+    "dev": "gulp serve"
+  },
+  "keywords": [
+    "javascript",
+    "debug",
+    "vscode",
+    "sourcemap"
+  ],
+  "author": "Miguel Almeida <darkmagusbr@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-live-server": "0.0.30",
+    "gulp-sourcemaps": "^2.1.1",
+    "gulp-typescript": "^3.0.2",
+    "gulp-uglify": "^2.0.0",
+    "typescript": "^2.0.3"
+  }
+}
