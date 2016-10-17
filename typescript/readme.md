@@ -56,7 +56,7 @@ If the execution is not stopping in your breakpoint try doing the following step
 
 If your chrome is not paused yet, then you might have forgotten to open your chrome in debug mode. Go to "running chrome in debug mode" section above.
 
-Now that you finally have successfully debugged your code, did you feel like there is some kind of magic behind it? No? So lets pound a bit about it. There is a *gulpfile.js* configured to always build your application whenever you make a change in your typescript. Gulp gets all typescripts inside **./app** folder, then transpile them into javascripts, then uglify and copy them to the distribution folder **./dist**. So your Chrome is running the javascripts in your **./dist** directory while you are putting breakpoints in the typescripts of **./app/** directory.
+Now that you finally have successfully debugged your code, did you feel like there is some kind of magic behind it? No? So lets ponder a bit about it. There is a *gulpfile.js* configured to always build your application whenever you make a change in your typescript. Gulp gets all typescripts inside **./app** folder, then transpile them into javascripts, then uglify and copy them to the distribution folder **./dist**. So your Chrome is running the javascripts in your **./dist** directory while you are putting breakpoints in the typescripts of **./app/** directory.
 
 So lets check how the magic is done by looking into the next configuration sections.
 
